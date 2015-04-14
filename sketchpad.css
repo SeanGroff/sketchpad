@@ -1,7 +1,12 @@
+body {
+	background-color: #000
+}
+
 .square {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 	height: 2.5rem;
 	width: 2.5rem;
+	background-color: white;
 }
