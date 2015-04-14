@@ -14,5 +14,12 @@ $(function() {
     	$grid.append(row);
 	}
 
+	$('.square').hover(
+		function() {
+			$(this).addClass('hoverTrail');
+		}, function() {
+			$(this).removeClass('square');
+		});
+
 
 });

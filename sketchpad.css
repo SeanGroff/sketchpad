@@ -1,5 +1,10 @@
 body {
-	background-color: #000
+	background-color: gray;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
 }
 
 .square {
@@ -8,5 +13,14 @@ body {
 	text-align: center;
 	height: 2.5rem;
 	width: 2.5rem;
-	background-color: white;
+	background-color: #FFF;
+}
+
+.hoverTrail {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #000;
 }
